@@ -7,6 +7,8 @@ from streamlit_autorefresh import st_autorefresh
 import pandas as pd
 import streamlit as st
 import plotly.graph_objs as go
+st.set_page_config(page_title="Qualidade do Ar Dashboard", layout="wide")
+
 # Atualiza a cada 5 minutos (300000 ms)
 st_autorefresh(interval=300000, limit=None, key="refresh")
 
