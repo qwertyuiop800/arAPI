@@ -61,7 +61,7 @@ df_api_history = load_api_history()
 # ...existing imports and code...
 
 col_names = ["pm2_5", "pm2.5", "pm25", "pm_2_5"]
-col1, col2, col3, col4 = st.columns([1,1,6,6])
+col1, col2, col3, col4 = st.columns([6,6,6,6])
 
 # ----- Coluna 1: Valor atual de PM2.5 -----
 with col1:
